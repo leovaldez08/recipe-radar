@@ -1,0 +1,161 @@
+/* General Stylings */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+/* Styling the Header Elements */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+header h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+header p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Styling the random meal section */
+.random-meal {
+  padding: 10px;
+  text-align: center;
+}
+
+.meal {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.random-meal .meal {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  text-align: left;
+}
+
+/* Styling the appended elements */
+.random-meal .meal img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.random-meal .meal h3 {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(68, 68, 68);
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* Styling the Search Meal by Category section */
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Styling the Input box and the Button */
+.search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ddd;
+  margin-right: 20px;
+}
+
+.search-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Styling the appended elements */
+.searched-meals {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.searched-meals .meal {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  text-align: left;
+}
+
+.searched-meals .meal img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.searched-meals .meal h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* Styling the Ingredient modal */
+.ingredient-modal {
+  position: fixed;
+  top: 0;
+  left: 27.5%;
+  margin: auto;
+  width: 45%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.93);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.ingredient-modal h3 {
+  color: white;
+  font-size: 38px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ingredient-modal ul {
+  list-style: none;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-align: center;
+}
+
+.ingredient-modal li {
+  margin-bottom: 14px;
+}
